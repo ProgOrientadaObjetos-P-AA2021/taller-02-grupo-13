@@ -21,13 +21,14 @@ public class Ejecutor {
                 "12345", "Loja", "Cuenca", 200, 25, 10);
         
         PasajeTerceraEdad pasajeTerceraEdad = new PasajeTerceraEdad("Jossue",
-                "987654", "Zamora", "Cariamanga", 500, 20);
+                "987654", "Zamora", "Cariamanga", 80, 20);
 
-        PasajeMenorEdad pasajeMenorEdad = new PasajeMenorEdad("Alejandra", "1150582755",
-                "Loja", "Malacatos",300.5, 20.3, 20);
-        PasajeUniversitario pasajeUniversitario = new PasajeUniversitario("Santiago", 
-                "123284733", "Catamayo",
-                "Loja", 440.5, 30.70, "Utpl");
+        PasajeMenorEdad pasajeMenorEdad = new PasajeMenorEdad("Diego", "1123456",
+                "Loja", "Malacatos",30, 10, 20);
+        
+        PasajeUniversitario pasajeUniversitario = new PasajeUniversitario("Jairo", 
+                "12564", "Catamayo",
+                "Loja", 45, 3.50, "UTPL");
 
         pasajes.add(pasajeMenorEdad);
         pasajes.add(pasajeUniversitario);
